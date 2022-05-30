@@ -2,9 +2,9 @@ const button = document.getElementById('button');
 
 const input1 = document.getElementById('num1')! as HTMLInputElement
 const input2 = document.getElementById('num2')! as HTMLInputElement
+const result = document.getElementById('result')! as HTMLInputElement
 
-
-const add = function(num1: number, num2: number) {
+ function add(num1: number, num2: number) {
     return num1 + num2
 }
 
